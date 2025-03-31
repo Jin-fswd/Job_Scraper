@@ -13,7 +13,6 @@
 - [Environment Variables](#environment-variables)
 - [License](#license)
 - [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Features
 
@@ -123,11 +122,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you're interested in improving the project, feel free to open an issue or submit a pull request. Your contributions are welcome!
 
-## Contact
-
-- **Name**: Minho Song
-- **Email**: [hominsong@naver.com](mailto:hominsong@naver.com)
-- **GitHub**: [minhosong88](https://github.com/minhosong88)
 
 =======================================================================================
 
@@ -146,7 +140,7 @@ If you're interested in improving the project, feel free to open an issue or sub
 - [환경 변수](#환경-변수)
 - [라이선스](#라이선스)
 - [기여하기](#기여하기)
-- [연락처](#연락처)
+
 
 ## 기능
 
@@ -255,9 +249,3 @@ SCRAPER_HEADLESS=false
 ## 기여하기
 
 프로젝트 개선에 관심이 있으시다면 언제든 이슈를 등록하거나 풀 리퀘스트를 보내주세요. 여러분의 기여를 환영합니다!
-
-## 연락처
-
-- **이름**: 송민호
-- **이메일**: [hominsong@naver.com](mailto:hominsong@naver.com)
-- **GitHub**: [minhosong88](https://github.com/minhosong88)
