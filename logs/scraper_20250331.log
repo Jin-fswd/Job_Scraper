@@ -1,0 +1,377 @@
+2025-03-31 09:22:45,655 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:22:45,656 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:22:45,656 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:22:45,656 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:22:46,025 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:22:46,380 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:22:52,660 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (1/3)
+2025-03-31 09:22:59,168 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:22:59,497 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:23:05,535 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (2/3)
+2025-03-31 09:23:11,204 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:23:11,503 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:23:36,667 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:23:36,668 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:23:36,668 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:23:36,668 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:23:37,045 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:23:37,354 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:23:43,398 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (1/3)
+2025-03-31 09:23:49,151 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:23:49,476 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:23:55,560 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (2/3)
+2025-03-31 09:24:01,036 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:24:01,331 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:24:07,412 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (3/3)
+2025-03-31 09:24:12,731 - extractors.wanted_job_search - WARNING - 키워드 'python'에 대한 콘텐츠를 가져오지 못했습니다.
+2025-03-31 09:24:12,731 - __main__ - INFO - Wanted 검색 결과: 0개 작업 찾음
+2025-03-31 09:24:12,731 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:24:13,568 - __main__ - INFO - WWR 검색 결과: 0개 작업 찾음
+2025-03-31 09:24:13,568 - __main__ - INFO - 3. RemoteOK 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:24:13,568 - __main__ - INFO - RemoteOK 스크래핑은 임시로 비활성화되었습니다.
+2025-03-31 09:24:13,568 - __main__ - INFO - 총 0개 작업을 찾았습니다 (WWR: 0, Wanted: 0, RemoteOK: 0)
+2025-03-31 09:24:39,148 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:24:39,149 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:24:39,149 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:24:39,149 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:24:39,520 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:24:39,822 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:25:40,002 - extractors.wanted_job_search - ERROR - Playwright 실행 중 오류 발생 (시도 1/3): Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.wanted.co.kr/search?query=python&tab=position", waiting until "networkidle"
+
+2025-03-31 09:25:40,003 - extractors.wanted_job_search - INFO - 5초 후 재시도...
+2025-03-31 09:25:45,371 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:25:45,686 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:25:55,296 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:25:55,296 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:25:55,296 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:25:55,296 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:25:55,697 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:25:56,048 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:26:15,773 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:26:15,774 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:26:15,774 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:26:15,774 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:26:16,139 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:26:16,433 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:26:22,537 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (1/3)
+2025-03-31 09:26:28,026 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:26:28,315 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:27:28,518 - extractors.wanted_job_search - ERROR - Playwright 실행 중 오류 발생 (시도 2/3): Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.wanted.co.kr/search?query=python&tab=position", waiting until "networkidle"
+
+2025-03-31 09:27:28,518 - extractors.wanted_job_search - INFO - 5초 후 재시도...
+2025-03-31 09:27:33,878 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:27:34,178 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:30:37,895 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:30:37,895 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:30:37,896 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = True
+2025-03-31 09:30:37,896 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:30:38,267 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: Headless
+2025-03-31 09:30:39,401 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:30:56,779 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:30:56,780 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:30:56,780 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = True
+2025-03-31 09:30:56,780 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:30:57,144 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: Headless
+2025-03-31 09:30:57,287 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:31:39,517 - extractors.wanted_job_search - WARNING - 페이지 로드 중 오류 발생: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.wanted.co.kr/search?query=python&tab=position", waiting until "networkidle"
+
+2025-03-31 09:31:42,539 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (1/3)
+2025-03-31 09:32:06,545 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:32:06,546 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:32:06,546 - __main__ - ERROR - 스크래핑 중 오류 발생: name 'false' is not defined
+2025-03-31 09:32:34,551 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:32:34,552 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:32:34,552 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:32:34,552 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:32:34,917 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:32:35,304 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:32:42,751 - extractors.wanted_job_search - WARNING - 봇 감지 가능성 발견, 재시도 중... (1/3)
+2025-03-31 09:32:48,856 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:32:49,146 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:35:58,857 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:35:58,858 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:35:58,858 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:35:58,858 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:35:59,240 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:35:59,577 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:36:05,879 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 09:36:15,699 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:36:15,699 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:36:15,700 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:36:15,700 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:36:16,066 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:36:16,364 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:36:46,550 - extractors.wanted_job_search - ERROR - Playwright 실행 중 오류 발생 (시도 1/3): Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.wanted.co.kr/search?query=python&tab=position", waiting until "networkidle"
+
+2025-03-31 09:36:46,550 - extractors.wanted_job_search - INFO - 5초 후 재시도...
+2025-03-31 09:36:51,907 - extractors.wanted_job_search - INFO - 브라우저 실행 모드: GUI (브라우저 창 표시)
+2025-03-31 09:36:52,198 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:38:07,291 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:38:07,291 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:38:07,291 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:38:07,292 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:38:07,984 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:38:11,785 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 09:38:19,568 - extractors.wanted_job_search - INFO - 68개의 채용 공고 요소 발견
+2025-03-31 09:38:19,568 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:38:19,568 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:38:19,568 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:38:19,569 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:38:19,569 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:38:19,569 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:38:19,569 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:38:19,569 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:38:19,570 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:38:19,570 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:38:19,570 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:38:19,570 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:38:19,570 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:38:19,571 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:38:19,571 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:38:19,571 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:38:19,572 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 09:38:19,572 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 09:38:19,572 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 09:38:19,572 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 09:38:19,572 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 09:38:19,573 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 09:38:19,573 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 09:38:19,573 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 09:38:19,573 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 09:38:19,574 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 09:38:19,574 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 09:38:19,574 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 09:38:19,574 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 09:38:19,575 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 09:38:19,575 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 09:38:19,575 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 09:38:19,575 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 09:38:19,575 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 09:38:19,576 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 09:38:19,577 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 09:38:19,577 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 09:38:19,577 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 09:38:19,577 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 09:38:19,577 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 09:38:19,578 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 09:38:19,578 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 09:38:19,578 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 09:38:19,578 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 09:38:19,579 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 09:38:19,579 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 09:38:19,579 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 09:38:19,579 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 09:38:19,579 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 09:38:19,580 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 09:38:19,580 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 09:38:19,580 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 09:38:19,580 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 09:38:19,580 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 09:38:19,581 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 09:38:19,581 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 09:38:19,581 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 09:38:19,581 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 09:38:19,582 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 09:38:19,582 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 09:38:19,582 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 09:38:19,582 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 09:38:19,582 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 09:38:19,582 - __main__ - INFO - Wanted 검색 결과: 68개 작업 찾음
+2025-03-31 09:38:19,583 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:38:20,319 - __main__ - INFO - WWR 검색 결과: 0개 작업 찾음
+2025-03-31 09:38:20,319 - __main__ - INFO - 총 68개 작업을 찾았습니다 (WWR: 0, Wanted: 68)
+2025-03-31 09:39:57,978 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:39:57,978 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:39:57,979 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:39:57,979 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:39:58,688 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:40:02,622 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 09:40:11,072 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 09:40:11,072 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:40:11,073 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:40:11,073 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:40:11,073 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:40:11,073 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:40:11,074 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:40:11,074 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:40:11,074 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:40:11,074 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:40:11,074 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:40:11,075 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:40:11,075 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:40:11,075 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:40:11,075 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:40:11,075 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:40:11,076 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:40:11,076 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 09:40:11,076 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 09:40:11,076 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 09:40:11,076 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 09:40:11,077 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 09:40:11,077 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 09:40:11,077 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 09:40:11,077 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 09:40:11,078 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 09:40:11,078 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 09:40:11,078 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 09:40:11,078 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 09:40:11,079 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 09:40:11,079 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 09:40:11,079 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 09:40:11,079 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 09:40:11,080 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 09:40:11,080 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 09:40:11,080 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 09:40:11,080 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 09:40:11,080 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 09:40:11,081 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 09:40:11,081 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 09:40:11,081 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 09:40:11,081 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 09:40:11,081 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 09:40:11,082 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 09:40:11,082 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 09:40:11,082 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 09:40:11,082 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 09:40:11,083 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 09:40:11,083 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 09:40:11,083 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 09:40:11,083 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 09:40:11,083 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 09:40:11,084 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 09:40:11,084 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 09:40:11,084 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 09:40:11,084 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 09:40:11,084 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 09:40:11,085 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 09:40:11,085 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 09:40:11,085 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 09:40:11,085 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 09:40:11,085 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 09:40:11,086 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 09:40:11,087 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 09:40:11,087 - extractors.wanted_job_search - INFO - 채용 정보 추출: Deep Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 09:40:11,087 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 - 메디인테크
+2025-03-31 09:40:11,087 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 09:40:11,087 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend 테크 리드 - 폰디
+2025-03-31 09:40:11,088 - extractors.wanted_job_search - INFO - 채용 정보 추출: Quantitative Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 09:40:11,088 - extractors.wanted_job_search - INFO - 채용 정보 추출: 비임상 DM STAT 분석 책임연구원(과장급) - 몰림
+2025-03-31 09:40:11,088 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 개발자 [코어강화팀] - 원티드랩
+2025-03-31 09:40:11,088 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 리드 엔지니어 (Python) - 엘리스
+2025-03-31 09:40:11,089 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 파이썬 백엔드 엔지니어 - 알로카도스
+2025-03-31 09:40:11,089 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가 (3년차 이상) - 파이프트리스마트팜(PAIPTREESmartFarmInc.)
+2025-03-31 09:40:11,089 - extractors.wanted_job_search - INFO - 채용 정보 추출: Python Backend Developer - 크로스이엔에프
+2025-03-31 09:40:11,089 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 클라우드 인프라 엔지니어 - 알로카도스
+2025-03-31 09:40:11,089 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 09:40:11,090 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:40:11,907 - __main__ - INFO - WWR 검색 결과: 0개 작업 찾음
+2025-03-31 09:40:11,907 - __main__ - INFO - 총 80개 작업을 찾았습니다 (WWR: 0, Wanted: 80)
+2025-03-31 09:41:49,109 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 09:41:49,109 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:41:49,109 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 09:41:49,110 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:41:49,793 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 09:41:53,578 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 09:42:01,482 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 09:42:01,482 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:42:01,483 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:42:01,483 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:42:01,483 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:42:01,483 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 09:42:01,484 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 09:42:01,485 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 09:42:01,485 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 09:42:01,485 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 09:42:01,485 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 09:42:01,486 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 09:42:01,486 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 09:42:01,486 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 09:42:01,486 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 09:42:01,486 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 09:42:01,487 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 09:42:01,487 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 09:42:01,487 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 09:42:01,487 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 09:42:01,488 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 09:42:01,488 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 09:42:01,488 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 09:42:01,488 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 09:42:01,489 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 09:42:01,489 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 09:42:01,489 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 09:42:01,489 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 09:42:01,489 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 09:42:01,490 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 09:42:01,490 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 09:42:01,490 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 09:42:01,490 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 09:42:01,490 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 09:42:01,491 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 09:42:01,491 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 09:42:01,491 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 09:42:01,491 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 09:42:01,491 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 09:42:01,492 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 09:42:01,492 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 09:42:01,492 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 09:42:01,492 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 09:42:01,492 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 09:42:01,493 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 09:42:01,493 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 09:42:01,493 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 09:42:01,493 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 09:42:01,493 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 09:42:01,494 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 09:42:01,494 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 09:42:01,494 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 09:42:01,494 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 09:42:01,495 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 09:42:01,495 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 09:42:01,495 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 09:42:01,495 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 09:42:01,495 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 09:42:01,496 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 09:42:01,496 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 09:42:01,496 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 09:42:01,496 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 09:42:01,497 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 09:42:01,497 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 09:42:01,497 - extractors.wanted_job_search - INFO - 채용 정보 추출: Deep Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 09:42:01,497 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 - 메디인테크
+2025-03-31 09:42:01,498 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 09:42:01,498 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend 테크 리드 - 폰디
+2025-03-31 09:42:01,498 - extractors.wanted_job_search - INFO - 채용 정보 추출: Quantitative Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 09:42:01,498 - extractors.wanted_job_search - INFO - 채용 정보 추출: 비임상 DM STAT 분석 책임연구원(과장급) - 몰림
+2025-03-31 09:42:01,499 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 개발자 [코어강화팀] - 원티드랩
+2025-03-31 09:42:01,499 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 리드 엔지니어 (Python) - 엘리스
+2025-03-31 09:42:01,499 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 파이썬 백엔드 엔지니어 - 알로카도스
+2025-03-31 09:42:01,499 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가 (3년차 이상) - 파이프트리스마트팜(PAIPTREESmartFarmInc.)
+2025-03-31 09:42:01,499 - extractors.wanted_job_search - INFO - 채용 정보 추출: Python Backend Developer - 크로스이엔에프
+2025-03-31 09:42:01,500 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 클라우드 인프라 엔지니어 - 알로카도스
+2025-03-31 09:42:01,500 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 09:42:01,500 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 09:42:02,233 - __main__ - INFO - WWR 검색 결과: 7개 작업 찾음
+2025-03-31 09:42:02,233 - __main__ - INFO - 총 87개 작업을 찾았습니다 (WWR: 7, Wanted: 80)

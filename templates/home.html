@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Job Scraper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+    />
+    <style>
+      /* Loading overlay style */
+      #loading-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #loading-spinner {
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+      }
+
+      #loading-text {
+        color: white;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading overlay -->
+    <div id="loading-overlay">
+      <img
+        id="loading-spinner"
+        src="/static/images/cat-space.gif"
+        alt="Loading..."
+      />
+      <div id="loading-text">Searching for job information...</div>
+    </div>
+
+    <main class="container">
+      <h1>Job Scraper</h1>
+      <p
+        class="pico-background-indigo-100"
+        style="padding: 10px; border-radius: 5px"
+      >
+        Search for job information from Wanted, We Work Remotely, and RemoteOK
+        websites.
+      </p>
+      <form action="/export">
+        <button class="pico-background-red-150">
+          Click to Go to Saved Search
+        </button>
+      </form>
+      <h4>What job do you want?</h4>
+      <form action="/search" id="search-form">
+        <input
+          type="text"
+          name="keyword"
+          placeholder="Programming language. Comma separated. Multiple search possible. Example) python, java, nextjs"
+        />
+        <button type="submit" id="search-button">Search</button>
+      </form>
+    </main>
+
+    <script>
+      // Show loading overlay on search form submission
+      document
+        .getElementById("search-form")
+        .addEventListener("submit", function (e) {
+          const keyword = document
+            .querySelector('input[name="keyword"]')
+            .value.trim();
+
+          if (keyword) {
+            // Show loading overlay
+            document.getElementById("loading-overlay").style.display = "flex";
+
+            // Disable search button
+            document.getElementById("search-button").disabled = true;
+            document.getElementById("search-button").innerText = "Searching...";
+          }
+        });
+    </script>
+  </body>
+</html>
