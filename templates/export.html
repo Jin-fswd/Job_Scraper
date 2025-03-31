@@ -73,50 +73,50 @@
             <button type="submit" id="export-button">Export</button>
         </form>
 
-        {% if selected_keyword %}
-        <form action="/save" id="save-form">
-            <input type="hidden" name="keyword" value="{{ selected_keyword }}">
-            <button id="save-button" type="submit" class="pico-background-orange-350">Save</button>
-        </form>
-        <h2>Searching Results: "{{ selected_keyword }}"</h2>
-        <figure>
-            <table role="grid">
-                <thead>
-                    <tr>
-                        <th>Position</th>
-                        <th>Company</th>
-                        <th>Link</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for job in jobs %}
-                    <tr>
-                        <td>{{ job[0] }}</td>
-                        <td>{{ job[1] }}</td>
-                        <td>
-                            <a href="{{ job[-1] }}" target="_blank"> Apply now &rarr; </a>
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </figure>
+        {% if selected_keyword and jobs %}
+        <div class="search-results">
+            <h2>Search Results for: "{{ selected_keyword }}"</h2>
+            <div class="actions">
+                <form action="/export" style="display: inline-block;">
+                    <input type="hidden" name="keyword" value="{{ selected_keyword }}">
+                    <input type="hidden" name="download" value="true">
+                    <input type="hidden" name="type" value="csv">
+                    <button type="submit" class="pico-background-green-350">Download CSV</button>
+                </form>
+                <form action="/export" style="display: inline-block;">
+                    <input type="hidden" name="keyword" value="{{ selected_keyword }}">
+                    <input type="hidden" name="download" value="true">
+                    <input type="hidden" name="type" value="excel">
+                    <button type="submit" class="pico-background-blue-350">Download Excel</button>
+                </form>
+            </div>
+            <figure>
+                <table role="grid">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for job in jobs %}
+                        <tr>
+                            <td>{{ job[0] }}</td>
+                            <td>{{ job[1] }}</td>
+                            <td>
+                                <a href="{{ job[-1] }}" target="_blank"> Apply now &rarr; </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </figure>
+        </div>
         {% endif %}
-
     </main>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Check if there are search results and show the save button if there are
-            {% if jobs %}
-            var searchResults = {{ jobs|length }};
-            {% else %}
-            var searchResults = 0;
-            {% endif %}
-            
-            if (searchResults > 0) {
-                document.getElementById('save-button').style.display = 'block';
-            }
-            
             // Export form submission shows loading overlay
             document.getElementById('export-form').addEventListener('submit', function(e) {
                 const keyword = document.getElementById('keyword').value;
@@ -126,16 +126,6 @@
                     document.getElementById('export-button').innerText = 'Loading...';
                 }
             });
-            
-            // Add event listener only if save button exists
-            var saveButton = document.getElementById('save-button');
-            if (saveButton) {
-                document.getElementById('save-form').addEventListener('submit', function(e) {
-                    document.getElementById('loading-overlay').style.display = 'flex';
-                    document.getElementById('save-button').disabled = true;
-                    document.getElementById('save-button').innerText = 'Saving...';
-                });
-            }
         });
     </script>
 </body>

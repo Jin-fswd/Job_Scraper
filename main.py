@@ -8,6 +8,8 @@ import csv
 from datetime import datetime
 import io
 from utils.logger import setup_logger
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
 
 # 로거 설정
 logger = setup_logger(__name__)
@@ -47,6 +49,69 @@ def create_csv_response(jobs, filename):
             
     except Exception as e:
         logger.error(f"CSV 생성 중 오류 발생: {str(e)}")
+        raise
+
+def create_excel_response(jobs, filename):
+    """Excel 응답 생성 헬퍼 함수"""
+    try:
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "Jobs"
+        
+        # 헤더 결정
+        if jobs:
+            if len(jobs[0]) == 5:  # WWR 데이터
+                headers = ["Position", "Company", "Location", "Salary", "Link"]
+            else:  # Wanted 데이터
+                headers = ["Position", "Company", "Reward", "Link"]
+            
+            # 헤더 스타일 설정
+            header_font = Font(bold=True, color="FFFFFF")
+            header_fill = PatternFill(start_color="366092", end_color="366092", fill_type="solid")
+            header_alignment = Alignment(horizontal="center", vertical="center")
+            
+            # 헤더 작성
+            for col, header in enumerate(headers, 1):
+                cell = ws.cell(row=1, column=col, value=header)
+                cell.font = header_font
+                cell.fill = header_fill
+                cell.alignment = header_alignment
+            
+            # 데이터 작성
+            for row, job in enumerate(jobs, 2):
+                for col, value in enumerate(job, 1):
+                    cell = ws.cell(row=row, column=col, value=value)
+                    cell.alignment = Alignment(horizontal="left", vertical="center")
+            
+            # 열 너비 자동 조정
+            for column in ws.columns:
+                max_length = 0
+                column = [cell for cell in column]
+                for cell in column:
+                    try:
+                        if len(str(cell.value)) > max_length:
+                            max_length = len(str(cell.value))
+                    except:
+                        pass
+                adjusted_width = (max_length + 2)
+                ws.column_dimensions[column[0].column_letter].width = adjusted_width
+            
+            # 메모리에 저장
+            excel_buffer = io.BytesIO()
+            wb.save(excel_buffer)
+            excel_buffer.seek(0)
+            
+            # 응답 생성
+            response = make_response(excel_buffer.getvalue())
+            response.headers["Content-Disposition"] = f"attachment; filename={filename}"
+            response.headers["Content-type"] = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            
+            return response
+        else:
+            raise ValueError("No jobs data available")
+            
+    except Exception as e:
+        logger.error(f"Excel 생성 중 오류 발생: {str(e)}")
         raise
 
 @app.route("/")
@@ -103,34 +168,43 @@ def search():
 
 @app.route("/export")
 def export():
-    """검색 결과를 CSV 파일로 내보내기"""
+    """저장된 검색 결과 페이지 렌더링 또는 파일 내보내기"""
     keyword = request.args.get("keyword")
-    if not keyword:
-        logger.warning("내보내기 요청: 키워드가 없음")
-        return redirect("/")
+    file_type = request.args.get("type", "csv")  # 기본값은 csv
     
-    keyword = keyword.strip()
-    if keyword not in db:
-        logger.warning(f"내보내기 요청: 키워드 '{keyword}'에 대한 데이터 없음")
-        return redirect(f"/search?keyword={keyword}")
-    
-    jobs = db[keyword]
-    if not jobs:
-        logger.warning(f"내보내기 요청: 키워드 '{keyword}'에 대한 작업 목록이 비어 있음")
-        return redirect(f"/search?keyword={keyword}")
-    
-    try:
-        # 현재 시간을 파일명에 포함
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"jobs_{keyword}_{timestamp}.csv"
+    # 파일 다운로드 요청인 경우
+    if keyword and request.args.get("download") == "true":
+        if keyword not in db:
+            logger.warning(f"내보내기 요청: 키워드 '{keyword}'에 대한 데이터 없음")
+            return redirect(f"/search?keyword={keyword}")
         
-        response = create_csv_response(jobs, filename)
-        logger.info(f"CSV 파일 내보내기 성공: {filename}, {len(jobs)}개 작업")
-        return response
+        jobs = db[keyword]
+        if not jobs:
+            logger.warning(f"내보내기 요청: 키워드 '{keyword}'에 대한 작업 목록이 비어 있음")
+            return redirect(f"/search?keyword={keyword}")
         
-    except Exception as e:
-        logger.error(f"CSV 파일 생성 중 오류 발생: {e}")
-        return redirect(f"/search?keyword={keyword}")
+        try:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            if file_type == "excel":
+                filename = f"jobs_{keyword}_{timestamp}.xlsx"
+                response = create_excel_response(jobs, filename)
+                logger.info(f"Excel 파일 내보내기 성공: {filename}, {len(jobs)}개 작업")
+            else:
+                filename = f"jobs_{keyword}_{timestamp}.csv"
+                response = create_csv_response(jobs, filename)
+                logger.info(f"CSV 파일 내보내기 성공: {filename}, {len(jobs)}개 작업")
+            return response
+        except Exception as e:
+            logger.error(f"파일 생성 중 오류 발생: {e}")
+            return redirect(f"/search?keyword={keyword}")
+    
+    # 저장된 검색 결과 페이지 렌더링
+    return render_template(
+        "export.html",
+        db=db,
+        selected_keyword=keyword,
+        jobs=db.get(keyword, []) if keyword else []
+    )
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080, debug=True)

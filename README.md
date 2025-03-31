@@ -17,12 +17,65 @@
 
 ## Features
 
-- **Multiple Keyword Search**: Search multiple keywords simultaneously using comma separation
-- **Real-Time Scraping**: Collect job information in real-time from Wanted and We Work Remotely
-- **CSV Export**: Save search results as CSV files for easy sharing and analysis
-- **User-Friendly Interface**: Clean and intuitive web interface built with PicoCSS
-- **In-Memory Caching**: Cache search results in memory for quick access
-- **Auto Scrolling**: Collect more job listings through automatic scrolling on Wanted site
+### Search Capabilities
+
+- **Multiple Keyword Search**:
+  - Search multiple keywords simultaneously using comma separation
+  - Example: "python, java, react"
+  - Supports both technical skills and job titles
+
+### Job Sources
+
+- **Wanted (원티드)**:
+
+  - Real-time scraping of Korean tech job postings
+  - Automatic scrolling for comprehensive results
+  - Includes position, company, and reward information
+
+- **We Work Remotely (WWR)**:
+  - Global remote job opportunities
+  - Includes detailed location and salary information
+  - Categories: Programming, DevOps, Design, etc.
+
+### Data Management
+
+- **CSV Export**:
+
+  - Export search results to CSV files
+  - Filename includes timestamp and keywords
+  - Organized columns for easy data analysis
+  - Different column structures for Wanted and WWR data
+
+- **In-Memory Caching**:
+  - Cache search results for faster access
+  - Avoid redundant scraping of same keywords
+  - Improved response time for repeated searches
+
+### User Interface
+
+- **Clean Web Interface**:
+
+  - Built with PicoCSS framework
+  - Responsive design for all devices
+  - Loading animations for better UX
+
+- **Search Results Display**:
+  - Clear tabular format
+  - Direct links to job postings
+  - Shows total result count and search time
+
+### Technical Features
+
+- **Custom Logging System**:
+
+  - Detailed operation logging
+  - Error tracking and debugging
+  - Daily log rotation
+
+- **Browser Automation**:
+  - Headless mode support
+  - Configurable through environment variables
+  - Robust error handling
 
 ## Project Structure
 
@@ -123,12 +176,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you're interested in improving the project, feel free to open an issue or submit a pull request. Your contributions are welcome!
 
-## Contact
-
-- **Name**: Minho Song
-- **Email**: [hominsong@naver.com](mailto:hominsong@naver.com)
-- **GitHub**: [minhosong88](https://github.com/minhosong88)
-
 =======================================================================================
 
 # Dynamic Job Scraper: 효율적인 구직 정보 자동화 도구
@@ -146,16 +193,68 @@ If you're interested in improving the project, feel free to open an issue or sub
 - [환경 변수](#환경-변수)
 - [라이선스](#라이선스)
 - [기여하기](#기여하기)
-- [연락처](#연락처)
 
 ## 기능
 
-- **다중 키워드 검색**: 쉼표로 구분된 여러 키워드로 동시에 검색 가능
-- **실시간 스크래핑**: Wanted와 We Work Remotely에서 실시간으로 채용 정보 수집
-- **CSV 내보내기**: 검색 결과를 CSV 파일로 저장하여 쉽게 공유 및 분석
-- **사용자 친화적 인터페이스**: PicoCSS로 구현된 깔끔하고 직관적인 웹 인터페이스
-- **인메모리 캐싱**: 검색 결과를 메모리에 캐싱하여 빠른 접근 가능
-- **자동 스크롤링**: Wanted 사이트에서 자동 스크롤을 통한 더 많은 채용 정보 수집
+### 검색 기능
+
+- **다중 키워드 검색**:
+  - 쉼표로 구분된 여러 키워드 동시 검색
+  - 예시: "python, java, react"
+  - 기술 스택과 직무명 모두 검색 가능
+
+### 구직 정보 소스
+
+- **원티드 (Wanted)**:
+
+  - 한국 IT 채용 정보 실시간 스크래핑
+  - 자동 스크롤을 통한 포괄적 결과 수집
+  - 포지션, 회사, 채용 보상 정보 포함
+
+- **We Work Remotely (WWR)**:
+  - 글로벌 원격 근무 기회
+  - 상세한 지역 및 급여 정보 포함
+  - 분야: 프로그래밍, 데브옵스, 디자인 등
+
+### 데이터 관리
+
+- **CSV 내보내기**:
+
+  - 검색 결과를 CSV 파일로 저장
+  - 파일명에 타임스탬프와 키워드 포함
+  - 분석하기 쉽게 정리된 컬럼
+  - 원티드와 WWR 데이터에 대한 다른 컬럼 구조 지원
+
+- **인메모리 캐싱**:
+  - 검색 결과를 메모리에 캐시
+  - 동일 키워드 중복 스크래핑 방지
+  - 반복 검색 시 응답 시간 개선
+
+### 사용자 인터페이스
+
+- **깔끔한 웹 인터페이스**:
+
+  - PicoCSS 프레임워크 활용
+  - 모든 기기에서 반응형 디자인
+  - 사용자 경험 개선을 위한 로딩 애니메이션
+
+- **검색 결과 표시**:
+  - 명확한 테이블 형식
+  - 채용 공고 직접 링크
+  - 전체 결과 수와 검색 시간 표시
+
+### 기술적 특징
+
+- **커스텀 로깅 시스템**:
+
+  - 상세한 작업 로깅
+  - 오류 추적 및 디버깅
+  - 일별 로그 순환
+
+- **브라우저 자동화**:
+  - 헤드리스 모드 지원
+  - 환경 변수를 통한 설정
+  - 안정적인 오류 처리
 
 ## 프로젝트 구조
 
@@ -255,9 +354,3 @@ SCRAPER_HEADLESS=false
 ## 기여하기
 
 프로젝트 개선에 관심이 있으시다면 언제든 이슈를 등록하거나 풀 리퀘스트를 보내주세요. 여러분의 기여를 환영합니다!
-
-## 연락처
-
-- **이름**: 송민호
-- **이메일**: [hominsong@naver.com](mailto:hominsong@naver.com)
-- **GitHub**: [minhosong88](https://github.com/minhosong88)

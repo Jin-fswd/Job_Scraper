@@ -375,3 +375,670 @@ Call log:
 2025-03-31 09:42:01,500 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
 2025-03-31 09:42:02,233 - __main__ - INFO - WWR 검색 결과: 7개 작업 찾음
 2025-03-31 09:42:02,233 - __main__ - INFO - 총 87개 작업을 찾았습니다 (WWR: 7, Wanted: 80)
+2025-03-31 10:19:28,343 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 10:19:28,344 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:19:28,344 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:19:28,344 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:19:29,303 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:19:33,737 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:19:41,508 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:19:41,508 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:19:41,509 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:19:41,509 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:19:41,509 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:19:41,509 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:19:41,509 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:19:41,510 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:19:41,510 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:19:41,510 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:19:41,510 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:19:41,511 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:19:41,511 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:19:41,511 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:19:41,511 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:19:41,512 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:19:41,512 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:19:41,512 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 10:19:41,512 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 10:19:41,512 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:19:41,513 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 10:19:41,513 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 10:19:41,513 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 10:19:41,513 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 10:19:41,513 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 10:19:41,514 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 10:19:41,514 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 10:19:41,514 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 10:19:41,514 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 10:19:41,515 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 10:19:41,515 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 10:19:41,515 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 10:19:41,515 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 10:19:41,515 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 10:19:41,516 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 10:19:41,516 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 10:19:41,516 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:19:41,516 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 10:19:41,516 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 10:19:41,517 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 10:19:41,517 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 10:19:41,517 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 10:19:41,518 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 10:19:41,518 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 10:19:41,518 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 10:19:41,518 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:19:41,519 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 10:19:41,519 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 10:19:41,519 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 10:19:41,519 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 10:19:41,519 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 10:19:41,520 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 10:19:41,520 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 10:19:41,520 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 10:19:41,520 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:19:41,520 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 10:19:41,521 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 10:19:41,521 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:19:41,521 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 10:19:41,521 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 10:19:41,522 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 10:19:41,522 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 10:19:41,522 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 10:19:41,522 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:19:41,522 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 10:19:41,523 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 10:19:41,523 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 10:19:41,523 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:19:41,523 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:19:41,524 - extractors.wanted_job_search - INFO - 채용 정보 추출: Deep Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:19:41,524 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 - 메디인테크
+2025-03-31 10:19:41,524 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:19:41,524 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend 테크 리드 - 폰디
+2025-03-31 10:19:41,525 - extractors.wanted_job_search - INFO - 채용 정보 추출: Quantitative Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:19:41,525 - extractors.wanted_job_search - INFO - 채용 정보 추출: 비임상 DM STAT 분석 책임연구원(과장급) - 몰림
+2025-03-31 10:19:41,525 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 개발자 [코어강화팀] - 원티드랩
+2025-03-31 10:19:41,525 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 리드 엔지니어 (Python) - 엘리스
+2025-03-31 10:19:41,525 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 파이썬 백엔드 엔지니어 - 알로카도스
+2025-03-31 10:19:41,526 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가 (3년차 이상) - 파이프트리스마트팜(PAIPTREESmartFarmInc.)
+2025-03-31 10:19:41,526 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 클라우드 인프라 엔지니어 - 알로카도스
+2025-03-31 10:19:41,526 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:19:41,526 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:19:41,526 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:19:42,321 - __main__ - INFO - WWR 검색 결과: 7개 작업 찾음
+2025-03-31 10:19:42,322 - __main__ - INFO - 총 87개 작업을 찾았습니다 (WWR: 7, Wanted: 80)
+2025-03-31 10:19:42,322 - __main__ - INFO - 키워드 'java'에 대한 새 검색 수행
+2025-03-31 10:19:42,322 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:19:42,322 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:19:42,322 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:19:42,945 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:19:47,253 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:19:55,041 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:19:55,041 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:19:55,042 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:19:55,042 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:19:55,042 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:19:55,043 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:19:55,043 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:19:55,043 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:19:55,043 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:19:55,043 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:19:55,044 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:19:55,044 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:19:55,044 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:19:55,044 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:19:55,044 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:19:55,045 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:19:55,045 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:19:55,045 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 파트장 (Java, Spring) - 미스터블루
+2025-03-31 10:19:55,045 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:19:55,045 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (5년 이상) - 오토위니
+2025-03-31 10:19:55,046 - extractors.wanted_job_search - INFO - 채용 정보 추출: Gen AI 백엔드 개발자 (4년차 이상) - 아스타
+2025-03-31 10:19:55,046 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 스프링부트 개발자 (7년차 이상) - 라이즌스퀘어
+2025-03-31 10:19:55,046 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드개발팀 서버 및 클라이언트 개발 - 헥토이노베이션
+2025-03-31 10:19:55,046 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (WMS) - 포티투닷(42dot)
+2025-03-31 10:19:55,046 - extractors.wanted_job_search - INFO - 채용 정보 추출: [IT인프라지원] 시스템 운영개발(DevOps) - 샘표식품
+2025-03-31 10:19:55,047 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] JAVA 개발(7년차 이상) - 아이알큐더스
+2025-03-31 10:19:55,047 - extractors.wanted_job_search - INFO - 채용 정보 추출: [Lead] 프론트앤드 웹개발 (JavaScript, HTML5, CSS) - 하와이컴퍼니
+2025-03-31 10:19:55,047 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (물류시스템) - 포티투닷(42dot)
+2025-03-31 10:19:55,048 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:19:55,048 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA/KOTLIN 웹 개발자 - 레전더리홀딩스
+2025-03-31 10:19:55,048 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End 엔지니어 (3~5년) - 그린도트
+2025-03-31 10:19:55,048 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바스크립트 백엔드 시니어 개발자 - 지씨미디어
+2025-03-31 10:19:55,048 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 어플리케이션 개발자 (수지구 파견) - 앤톡(Antock)
+2025-03-31 10:19:55,049 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:19:55,049 - extractors.wanted_job_search - INFO - 채용 정보 추출: 클라우드 Java 백엔드 개발자 - 아이파킹
+2025-03-31 10:19:55,049 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:19:55,049 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발PL] 업무분석,설계,개발 (6년이상) - 스카이웨어
+2025-03-31 10:19:55,050 - extractors.wanted_job_search - INFO - 채용 정보 추출: API 시스템 개발자 (과/차장급) - 기웅정보통신
+2025-03-31 10:19:55,050 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:19:55,050 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:19:55,050 - extractors.wanted_job_search - INFO - 채용 정보 추출: Software Engineer (Backend) - 스튜디오씨드코리아(프로토파이)
+2025-03-31 10:19:55,051 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:19:55,051 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Senior 개발자 (플랫폼개발팀) - 델레오코리아(deleo)
+2025-03-31 10:19:55,051 - extractors.wanted_job_search - INFO - 채용 정보 추출: [판교] 풀스택 엔지니어 (PHP, JavaScript) - 지란지교소프트
+2025-03-31 10:19:55,051 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하이닉스 SmartFX 기반 C#, Java 개발자 - 미리비트
+2025-03-31 10:19:55,051 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플랫폼개발팀] Java 주니어 개발자 - 델레오코리아(deleo)
+2025-03-31 10:19:55,052 - extractors.wanted_job_search - INFO - 채용 정보 추출: 개발자 - 효성에프엠에스
+2025-03-31 10:19:55,052 - extractors.wanted_job_search - INFO - 채용 정보 추출: [장애인 특별전형] JAVA 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:19:55,052 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 소프트웨어 엔지니어 - 오틈랩스(OTTMLabs)
+2025-03-31 10:19:55,052 - extractors.wanted_job_search - INFO - 채용 정보 추출: 게임 백엔드 개발자 - 더쇼소프트웨어
+2025-03-31 10:19:55,053 - extractors.wanted_job_search - INFO - 채용 정보 추출: [인텔리전스랩스] 인증/세션 서비스 백엔드 개발자 (Java) - 넥슨코리아(NEXON)
+2025-03-31 10:19:55,053 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발 - 아주큐엠에스
+2025-03-31 10:19:55,053 - extractors.wanted_job_search - INFO - 채용 정보 추출: [기업부설연구소] 플랫폼 개발팀장 [JAVA, SPRINGBOOT5+] - 아인잡(AINJOB)
+2025-03-31 10:19:55,053 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 솔루션 서버 개발 - 아이씨티케이
+2025-03-31 10:19:55,053 - extractors.wanted_job_search - INFO - 채용 정보 추출: [포토이즘] Backend developer - 서북
+2025-03-31 10:19:55,054 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발(게임 퍼블리싱) - 위메이드(WEMADE)
+2025-03-31 10:19:55,054 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바 백엔드 엔지니어 (암호화폐 거래소) - 아데나소프트웨어
+2025-03-31 10:19:55,054 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA REACT / WEBFRONT-K GUI개발 - 파이오링크
+2025-03-31 10:19:55,054 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (2~5년) - 오토위니
+2025-03-31 10:19:55,054 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 미만) - 커넥트웨이브
+2025-03-31 10:19:55,055 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자(PHP, JAVA) - 와그(WAUG)
+2025-03-31 10:19:55,055 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사내 JAVA 개발자 - 빌포스트
+2025-03-31 10:19:55,055 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 개발자 - 아우토크립트
+2025-03-31 10:19:55,055 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 - 케이엠파킹앤스페이스
+2025-03-31 10:19:55,056 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 백엔드 개발자(Java/Kotlin) - 페이민트
+2025-03-31 10:19:55,056 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:19:55,056 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발자 (3-7년) - 스칼라데이터
+2025-03-31 10:19:55,056 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 주니어 개발자 (Back-end) - 유핀테크허브(유트랜스퍼)
+2025-03-31 10:19:55,056 - extractors.wanted_job_search - INFO - 채용 정보 추출: [레진코믹스] 백엔드 개발(서비스개발) - 키다리스튜디오
+2025-03-31 10:19:55,057 - extractors.wanted_job_search - INFO - 채용 정보 추출: [라이브클래스] Back-end Engineer - 퓨쳐스콜레
+2025-03-31 10:19:55,057 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 개발자 - 씨알에스큐브(CRScube)
+2025-03-31 10:19:55,057 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer (Java/Kotlin) - 센트비(Sentbe)
+2025-03-31 10:19:55,058 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-end Engineer (5년~) - 비사이드코리아
+2025-03-31 10:19:55,058 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하다(HADA) 서버 개발 - 샤플앤컴퍼니
+2025-03-31 10:19:55,058 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Server 개발자 - 아하랩스
+2025-03-31 10:19:55,058 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (1년이상) - 카테노이드
+2025-03-31 10:19:55,058 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java  웹 개발자 (2년 이상) - 이노케어플러스
+2025-03-31 10:19:55,059 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드/자바개발자 - 글리티
+2025-03-31 10:19:55,059 - extractors.wanted_job_search - INFO - 채용 정보 추출: [미리캔버스] 백엔드 개발자 - 미리디
+2025-03-31 10:19:55,059 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:19:55,059 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 서비스 백엔드 개발자 - 이스트에이드(EST AID)
+2025-03-31 10:19:55,059 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:19:55,059 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:19:55,855 - __main__ - INFO - WWR 검색 결과: 3개 작업 찾음
+2025-03-31 10:19:55,855 - __main__ - INFO - 총 83개 작업을 찾았습니다 (WWR: 3, Wanted: 80)
+2025-03-31 10:29:48,677 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:29:57,026 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:29:59,032 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:29:59,761 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:00,255 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:00,716 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:00,890 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:01,098 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:01,282 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:02,742 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:02,918 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,081 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,261 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,411 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,588 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,748 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:03,921 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:04,397 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:24,831 - __main__ - INFO - 캐시에서 키워드 'java'에 대한 결과 사용
+2025-03-31 10:30:28,308 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:33,704 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:30:36,045 - __main__ - WARNING - 빈 키워드로 검색 시도
+2025-03-31 10:33:35,704 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:33:38,482 - __main__ - INFO - 캐시에서 키워드 'python'에 대한 결과 사용
+2025-03-31 10:33:41,238 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:33:49,732 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:34:39,153 - __main__ - WARNING - 내보내기 요청: 키워드가 없음
+2025-03-31 10:34:43,969 - __main__ - INFO - 키워드 'java'에 대한 새 검색 수행
+2025-03-31 10:34:43,969 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:34:43,969 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:34:43,969 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:34:44,627 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:34:49,347 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:34:57,173 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:34:57,174 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:34:57,174 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:34:57,174 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:34:57,174 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:34:57,175 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:34:57,175 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:34:57,175 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:34:57,175 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:34:57,176 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:34:57,176 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:34:57,176 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:34:57,176 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:34:57,177 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:34:57,177 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:34:57,177 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:34:57,177 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:34:57,178 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 파트장 (Java, Spring) - 미스터블루
+2025-03-31 10:34:57,178 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:34:57,178 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (5년 이상) - 오토위니
+2025-03-31 10:34:57,178 - extractors.wanted_job_search - INFO - 채용 정보 추출: Gen AI 백엔드 개발자 (4년차 이상) - 아스타
+2025-03-31 10:34:57,179 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 스프링부트 개발자 (7년차 이상) - 라이즌스퀘어
+2025-03-31 10:34:57,179 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드개발팀 서버 및 클라이언트 개발 - 헥토이노베이션
+2025-03-31 10:34:57,179 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (WMS) - 포티투닷(42dot)
+2025-03-31 10:34:57,179 - extractors.wanted_job_search - INFO - 채용 정보 추출: [IT인프라지원] 시스템 운영개발(DevOps) - 샘표식품
+2025-03-31 10:34:57,180 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] JAVA 개발(7년차 이상) - 아이알큐더스
+2025-03-31 10:34:57,180 - extractors.wanted_job_search - INFO - 채용 정보 추출: [Lead] 프론트앤드 웹개발 (JavaScript, HTML5, CSS) - 하와이컴퍼니
+2025-03-31 10:34:57,180 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (물류시스템) - 포티투닷(42dot)
+2025-03-31 10:34:57,180 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:34:57,181 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA/KOTLIN 웹 개발자 - 레전더리홀딩스
+2025-03-31 10:34:57,181 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End 엔지니어 (3~5년) - 그린도트
+2025-03-31 10:34:57,181 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바스크립트 백엔드 시니어 개발자 - 지씨미디어
+2025-03-31 10:34:57,181 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 어플리케이션 개발자 (수지구 파견) - 앤톡(Antock)
+2025-03-31 10:34:57,181 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:34:57,182 - extractors.wanted_job_search - INFO - 채용 정보 추출: 클라우드 Java 백엔드 개발자 - 아이파킹
+2025-03-31 10:34:57,182 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:34:57,182 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발PL] 업무분석,설계,개발 (6년이상) - 스카이웨어
+2025-03-31 10:34:57,182 - extractors.wanted_job_search - INFO - 채용 정보 추출: API 시스템 개발자 (과/차장급) - 기웅정보통신
+2025-03-31 10:34:57,183 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:34:57,183 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:34:57,183 - extractors.wanted_job_search - INFO - 채용 정보 추출: Software Engineer (Backend) - 스튜디오씨드코리아(프로토파이)
+2025-03-31 10:34:57,184 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:34:57,184 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Senior 개발자 (플랫폼개발팀) - 델레오코리아(deleo)
+2025-03-31 10:34:57,184 - extractors.wanted_job_search - INFO - 채용 정보 추출: [판교] 풀스택 엔지니어 (PHP, JavaScript) - 지란지교소프트
+2025-03-31 10:34:57,184 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하이닉스 SmartFX 기반 C#, Java 개발자 - 미리비트
+2025-03-31 10:34:57,185 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플랫폼개발팀] Java 주니어 개발자 - 델레오코리아(deleo)
+2025-03-31 10:34:57,185 - extractors.wanted_job_search - INFO - 채용 정보 추출: 개발자 - 효성에프엠에스
+2025-03-31 10:34:57,185 - extractors.wanted_job_search - INFO - 채용 정보 추출: [장애인 특별전형] JAVA 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:34:57,185 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 소프트웨어 엔지니어 - 오틈랩스(OTTMLabs)
+2025-03-31 10:34:57,185 - extractors.wanted_job_search - INFO - 채용 정보 추출: 게임 백엔드 개발자 - 더쇼소프트웨어
+2025-03-31 10:34:57,186 - extractors.wanted_job_search - INFO - 채용 정보 추출: [인텔리전스랩스] 인증/세션 서비스 백엔드 개발자 (Java) - 넥슨코리아(NEXON)
+2025-03-31 10:34:57,186 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발 - 아주큐엠에스
+2025-03-31 10:34:57,186 - extractors.wanted_job_search - INFO - 채용 정보 추출: [기업부설연구소] 플랫폼 개발팀장 [JAVA, SPRINGBOOT5+] - 아인잡(AINJOB)
+2025-03-31 10:34:57,186 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 솔루션 서버 개발 - 아이씨티케이
+2025-03-31 10:34:57,186 - extractors.wanted_job_search - INFO - 채용 정보 추출: [포토이즘] Backend developer - 서북
+2025-03-31 10:34:57,187 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발(게임 퍼블리싱) - 위메이드(WEMADE)
+2025-03-31 10:34:57,187 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바 백엔드 엔지니어 (암호화폐 거래소) - 아데나소프트웨어
+2025-03-31 10:34:57,187 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA REACT / WEBFRONT-K GUI개발 - 파이오링크
+2025-03-31 10:34:57,187 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (2~5년) - 오토위니
+2025-03-31 10:34:57,187 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 미만) - 커넥트웨이브
+2025-03-31 10:34:57,188 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자(PHP, JAVA) - 와그(WAUG)
+2025-03-31 10:34:57,188 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사내 JAVA 개발자 - 빌포스트
+2025-03-31 10:34:57,188 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 개발자 - 아우토크립트
+2025-03-31 10:34:57,188 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 - 케이엠파킹앤스페이스
+2025-03-31 10:34:57,189 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 백엔드 개발자(Java/Kotlin) - 페이민트
+2025-03-31 10:34:57,189 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:34:57,189 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발자 (3-7년) - 스칼라데이터
+2025-03-31 10:34:57,189 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 주니어 개발자 (Back-end) - 유핀테크허브(유트랜스퍼)
+2025-03-31 10:34:57,190 - extractors.wanted_job_search - INFO - 채용 정보 추출: [레진코믹스] 백엔드 개발(서비스개발) - 키다리스튜디오
+2025-03-31 10:34:57,190 - extractors.wanted_job_search - INFO - 채용 정보 추출: [라이브클래스] Back-end Engineer - 퓨쳐스콜레
+2025-03-31 10:34:57,190 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 개발자 - 씨알에스큐브(CRScube)
+2025-03-31 10:34:57,190 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer (Java/Kotlin) - 센트비(Sentbe)
+2025-03-31 10:34:57,191 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-end Engineer (5년~) - 비사이드코리아
+2025-03-31 10:34:57,191 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하다(HADA) 서버 개발 - 샤플앤컴퍼니
+2025-03-31 10:34:57,191 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Server 개발자 - 아하랩스
+2025-03-31 10:34:57,191 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (1년이상) - 카테노이드
+2025-03-31 10:34:57,191 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java  웹 개발자 (2년 이상) - 이노케어플러스
+2025-03-31 10:34:57,192 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드/자바개발자 - 글리티
+2025-03-31 10:34:57,192 - extractors.wanted_job_search - INFO - 채용 정보 추출: [미리캔버스] 백엔드 개발자 - 미리디
+2025-03-31 10:34:57,192 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:34:57,192 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 서비스 백엔드 개발자 - 이스트에이드(EST AID)
+2025-03-31 10:34:57,193 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:34:57,193 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:34:58,068 - __main__ - INFO - WWR 검색 결과: 3개 작업 찾음
+2025-03-31 10:34:58,068 - __main__ - INFO - 총 83개 작업을 찾았습니다 (WWR: 3, Wanted: 80)
+2025-03-31 10:35:31,015 - __main__ - INFO - 키워드 'java'에 대한 새 검색 수행
+2025-03-31 10:35:31,015 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:35:31,015 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:35:31,015 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:35:31,775 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:35:34,860 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:35:36,470 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 10:35:36,471 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:35:36,471 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:35:36,471 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:35:37,133 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:35:40,685 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:35:42,762 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:35:42,763 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:35:42,763 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:35:42,763 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:35:42,763 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:35:42,764 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:35:42,764 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:35:42,764 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:35:42,764 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:35:42,764 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:35:42,765 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:35:42,765 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:35:42,765 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:35:42,766 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:35:42,766 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:35:42,766 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:35:42,766 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:35:42,767 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 파트장 (Java, Spring) - 미스터블루
+2025-03-31 10:35:42,767 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:35:42,767 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (5년 이상) - 오토위니
+2025-03-31 10:35:42,767 - extractors.wanted_job_search - INFO - 채용 정보 추출: Gen AI 백엔드 개발자 (4년차 이상) - 아스타
+2025-03-31 10:35:42,767 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 스프링부트 개발자 (7년차 이상) - 라이즌스퀘어
+2025-03-31 10:35:42,768 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드개발팀 서버 및 클라이언트 개발 - 헥토이노베이션
+2025-03-31 10:35:42,768 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (WMS) - 포티투닷(42dot)
+2025-03-31 10:35:42,768 - extractors.wanted_job_search - INFO - 채용 정보 추출: [IT인프라지원] 시스템 운영개발(DevOps) - 샘표식품
+2025-03-31 10:35:42,768 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] JAVA 개발(7년차 이상) - 아이알큐더스
+2025-03-31 10:35:42,768 - extractors.wanted_job_search - INFO - 채용 정보 추출: [Lead] 프론트앤드 웹개발 (JavaScript, HTML5, CSS) - 하와이컴퍼니
+2025-03-31 10:35:42,769 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (물류시스템) - 포티투닷(42dot)
+2025-03-31 10:35:42,769 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:35:42,769 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA/KOTLIN 웹 개발자 - 레전더리홀딩스
+2025-03-31 10:35:42,769 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End 엔지니어 (3~5년) - 그린도트
+2025-03-31 10:35:42,769 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바스크립트 백엔드 시니어 개발자 - 지씨미디어
+2025-03-31 10:35:42,770 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 어플리케이션 개발자 (수지구 파견) - 앤톡(Antock)
+2025-03-31 10:35:42,770 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:35:42,770 - extractors.wanted_job_search - INFO - 채용 정보 추출: 클라우드 Java 백엔드 개발자 - 아이파킹
+2025-03-31 10:35:42,770 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:35:42,771 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발PL] 업무분석,설계,개발 (6년이상) - 스카이웨어
+2025-03-31 10:35:42,771 - extractors.wanted_job_search - INFO - 채용 정보 추출: API 시스템 개발자 (과/차장급) - 기웅정보통신
+2025-03-31 10:35:42,771 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:35:42,772 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:35:42,772 - extractors.wanted_job_search - INFO - 채용 정보 추출: Software Engineer (Backend) - 스튜디오씨드코리아(프로토파이)
+2025-03-31 10:35:42,772 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:35:42,773 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Senior 개발자 (플랫폼개발팀) - 델레오코리아(deleo)
+2025-03-31 10:35:42,773 - extractors.wanted_job_search - INFO - 채용 정보 추출: [판교] 풀스택 엔지니어 (PHP, JavaScript) - 지란지교소프트
+2025-03-31 10:35:42,773 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하이닉스 SmartFX 기반 C#, Java 개발자 - 미리비트
+2025-03-31 10:35:42,773 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플랫폼개발팀] Java 주니어 개발자 - 델레오코리아(deleo)
+2025-03-31 10:35:42,774 - extractors.wanted_job_search - INFO - 채용 정보 추출: 개발자 - 효성에프엠에스
+2025-03-31 10:35:42,774 - extractors.wanted_job_search - INFO - 채용 정보 추출: [장애인 특별전형] JAVA 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:35:42,774 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 소프트웨어 엔지니어 - 오틈랩스(OTTMLabs)
+2025-03-31 10:35:42,774 - extractors.wanted_job_search - INFO - 채용 정보 추출: 게임 백엔드 개발자 - 더쇼소프트웨어
+2025-03-31 10:35:42,775 - extractors.wanted_job_search - INFO - 채용 정보 추출: [인텔리전스랩스] 인증/세션 서비스 백엔드 개발자 (Java) - 넥슨코리아(NEXON)
+2025-03-31 10:35:42,775 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발 - 아주큐엠에스
+2025-03-31 10:35:42,775 - extractors.wanted_job_search - INFO - 채용 정보 추출: [기업부설연구소] 플랫폼 개발팀장 [JAVA, SPRINGBOOT5+] - 아인잡(AINJOB)
+2025-03-31 10:35:42,775 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 솔루션 서버 개발 - 아이씨티케이
+2025-03-31 10:35:42,776 - extractors.wanted_job_search - INFO - 채용 정보 추출: [포토이즘] Backend developer - 서북
+2025-03-31 10:35:42,776 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발(게임 퍼블리싱) - 위메이드(WEMADE)
+2025-03-31 10:35:42,776 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바 백엔드 엔지니어 (암호화폐 거래소) - 아데나소프트웨어
+2025-03-31 10:35:42,776 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA REACT / WEBFRONT-K GUI개발 - 파이오링크
+2025-03-31 10:35:42,777 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (2~5년) - 오토위니
+2025-03-31 10:35:42,777 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 미만) - 커넥트웨이브
+2025-03-31 10:35:42,777 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자(PHP, JAVA) - 와그(WAUG)
+2025-03-31 10:35:42,777 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사내 JAVA 개발자 - 빌포스트
+2025-03-31 10:35:42,778 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 개발자 - 아우토크립트
+2025-03-31 10:35:42,778 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 - 케이엠파킹앤스페이스
+2025-03-31 10:35:42,778 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 백엔드 개발자(Java/Kotlin) - 페이민트
+2025-03-31 10:35:42,779 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:35:42,779 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발자 (3-7년) - 스칼라데이터
+2025-03-31 10:35:42,780 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 주니어 개발자 (Back-end) - 유핀테크허브(유트랜스퍼)
+2025-03-31 10:35:42,780 - extractors.wanted_job_search - INFO - 채용 정보 추출: [레진코믹스] 백엔드 개발(서비스개발) - 키다리스튜디오
+2025-03-31 10:35:42,781 - extractors.wanted_job_search - INFO - 채용 정보 추출: [라이브클래스] Back-end Engineer - 퓨쳐스콜레
+2025-03-31 10:35:42,781 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 개발자 - 씨알에스큐브(CRScube)
+2025-03-31 10:35:42,781 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer (Java/Kotlin) - 센트비(Sentbe)
+2025-03-31 10:35:42,782 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-end Engineer (5년~) - 비사이드코리아
+2025-03-31 10:35:42,782 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하다(HADA) 서버 개발 - 샤플앤컴퍼니
+2025-03-31 10:35:42,782 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Server 개발자 - 아하랩스
+2025-03-31 10:35:42,782 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (1년이상) - 카테노이드
+2025-03-31 10:35:42,783 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java  웹 개발자 (2년 이상) - 이노케어플러스
+2025-03-31 10:35:42,783 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드/자바개발자 - 글리티
+2025-03-31 10:35:42,783 - extractors.wanted_job_search - INFO - 채용 정보 추출: [미리캔버스] 백엔드 개발자 - 미리디
+2025-03-31 10:35:42,783 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:35:42,784 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 서비스 백엔드 개발자 - 이스트에이드(EST AID)
+2025-03-31 10:35:42,784 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:35:42,785 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:35:43,630 - __main__ - INFO - WWR 검색 결과: 3개 작업 찾음
+2025-03-31 10:35:43,630 - __main__ - INFO - 총 83개 작업을 찾았습니다 (WWR: 3, Wanted: 80)
+2025-03-31 10:35:48,670 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:35:48,671 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:35:48,671 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:35:48,671 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:35:48,672 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:35:48,672 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:35:48,672 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:35:48,672 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:35:48,672 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:35:48,673 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:35:48,673 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:35:48,673 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:35:48,673 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:35:48,673 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:35:48,674 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:35:48,674 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:35:48,674 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:35:48,674 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 10:35:48,674 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 10:35:48,675 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:35:48,675 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 10:35:48,675 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 10:35:48,675 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 10:35:48,676 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 10:35:48,676 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 10:35:48,676 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 10:35:48,677 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 10:35:48,677 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 10:35:48,677 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 10:35:48,677 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 10:35:48,678 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 10:35:48,678 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 10:35:48,678 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 10:35:48,678 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 10:35:48,678 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 10:35:48,679 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 10:35:48,680 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 10:35:48,680 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 10:35:48,680 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 10:35:48,680 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 10:35:48,681 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:35:48,681 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 10:35:48,681 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 10:35:48,681 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 10:35:48,681 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 10:35:48,682 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 10:35:48,682 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 10:35:48,682 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 10:35:48,682 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 10:35:48,683 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:35:48,683 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 10:35:48,683 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 10:35:48,683 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:35:48,684 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 10:35:48,684 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 10:35:48,684 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 10:35:48,685 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 10:35:48,685 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 10:35:48,685 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:35:48,685 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 10:35:48,685 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 10:35:48,686 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 10:35:48,686 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:35:48,686 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:35:48,687 - extractors.wanted_job_search - INFO - 채용 정보 추출: Deep Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:35:48,687 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 - 메디인테크
+2025-03-31 10:35:48,687 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:35:48,687 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend 테크 리드 - 폰디
+2025-03-31 10:35:48,688 - extractors.wanted_job_search - INFO - 채용 정보 추출: Quantitative Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:35:48,688 - extractors.wanted_job_search - INFO - 채용 정보 추출: 비임상 DM STAT 분석 책임연구원(과장급) - 몰림
+2025-03-31 10:35:48,688 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 개발자 [코어강화팀] - 원티드랩
+2025-03-31 10:35:48,688 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 리드 엔지니어 (Python) - 엘리스
+2025-03-31 10:35:48,688 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 파이썬 백엔드 엔지니어 - 알로카도스
+2025-03-31 10:35:48,689 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가 (3년차 이상) - 파이프트리스마트팜(PAIPTREESmartFarmInc.)
+2025-03-31 10:35:48,689 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 클라우드 인프라 엔지니어 - 알로카도스
+2025-03-31 10:35:48,689 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:35:48,689 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:35:48,689 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:35:49,560 - __main__ - INFO - WWR 검색 결과: 7개 작업 찾음
+2025-03-31 10:35:49,560 - __main__ - INFO - 총 87개 작업을 찾았습니다 (WWR: 7, Wanted: 80)
+2025-03-31 10:36:10,847 - __main__ - INFO - CSV 파일 내보내기 성공: jobs_java_20250331_103610.csv, 83개 작업
+2025-03-31 10:55:15,264 - __main__ - INFO - 키워드 'python'에 대한 새 검색 수행
+2025-03-31 10:55:15,265 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:55:15,265 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:55:15,265 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:55:16,037 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=python&tab=position
+2025-03-31 10:55:20,440 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:55:28,223 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:55:28,223 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:55:28,223 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:55:28,224 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:55:28,224 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:55:28,224 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:55:28,224 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:55:28,224 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:55:28,225 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:55:28,225 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:55:28,225 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior VSLAM Engineer (Seoul) - 스트라드비젼(STRADVISION)
+2025-03-31 10:55:28,225 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) (신입) - 메디인테크
+2025-03-31 10:55:28,226 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Consultant - 에프피티소프트웨어코리아
+2025-03-31 10:55:28,226 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:55:28,226 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자연어처리(NLP)/ Python 엔진 개발 - 아일리스프런티어(ailysfrontier)
+2025-03-31 10:55:28,226 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Site Reliability Engineer - 업스테이지
+2025-03-31 10:55:28,226 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Engineer (Field Engineer) - 에이엠스퀘어
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자(전문연구요원 지원 가능) - 에이스웍스코리아
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 (신입) - 메디인테크
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (Python / Lead) - 카레딧
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 인공지능 연구원 - 메디인테크
+2025-03-31 10:55:28,227 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동차 보안 취약점 점검 자동화 연구원 (병특/전문연 가능) - 아우토크립트
+2025-03-31 10:55:28,228 - extractors.wanted_job_search - INFO - 채용 정보 추출: 세무 로직 개발자 (Python) - 지엔터프라이즈
+2025-03-31 10:55:28,228 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] Python 백엔드 개발 - 지엔에이컴퍼니
+2025-03-31 10:55:28,228 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-End 개발자 - 데일리페이
+2025-03-31 10:55:28,228 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 (신입) - 메디인테크
+2025-03-31 10:55:28,229 - extractors.wanted_job_search - INFO - 채용 정보 추출: B2G, B2B 사업 TPM(Technical Program Manager) - 한국딥러닝
+2025-03-31 10:55:28,229 - extractors.wanted_job_search - INFO - 채용 정보 추출: NestJS, Python 백엔드 개발자(5년차이상) - 씨에스엠17
+2025-03-31 10:55:28,229 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 백엔드 개발자 - 한국글로벌널리지네트웍
+2025-03-31 10:55:28,229 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Research Engineer (Document AI) - 업스테이지
+2025-03-31 10:55:28,230 - extractors.wanted_job_search - INFO - 채용 정보 추출: 음성인식(Speech Recognition) 모듈 개발자 - 라이브데이터
+2025-03-31 10:55:28,230 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 python 팀장급 - 풀림
+2025-03-31 10:55:28,230 - extractors.wanted_job_search - INFO - 채용 정보 추출: 이커머스 솔루션 Python Backend 리드 - 샐러드랩
+2025-03-31 10:55:28,230 - extractors.wanted_job_search - INFO - 채용 정보 추출: SW 엔지니어 - 이파피루스
+2025-03-31 10:55:28,231 - extractors.wanted_job_search - INFO - 채용 정보 추출: 3D 머신러닝 엔지니어 - 픽셀스코프
+2025-03-31 10:55:28,231 - extractors.wanted_job_search - INFO - 채용 정보 추출: 인프라 구축 운영 담당자 - 람다256
+2025-03-31 10:55:28,231 - extractors.wanted_job_search - INFO - 채용 정보 추출: 생성형 AI Python Fullstack 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:55:28,231 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 에이전트 개발자 - 다큐브(daquv)
+2025-03-31 10:55:28,232 - extractors.wanted_job_search - INFO - 채용 정보 추출: DevOps 엔지니어 - 더블유컨셉코리아(W컨셉)
+2025-03-31 10:55:28,232 - extractors.wanted_job_search - INFO - 채용 정보 추출: [CROSS SHOP] Python Backend Developer - 크로스이엔에프
+2025-03-31 10:55:28,232 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] C/C++, Python 로봇 제어 개발자 - 메디인테크
+2025-03-31 10:55:28,232 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 소프트웨어 개발자 (C++ ) - 메디인테크
+2025-03-31 10:55:28,232 - extractors.wanted_job_search - INFO - 채용 정보 추출: Visual SLAM (vSLAM) 개발 - 딥파인
+2025-03-31 10:55:28,233 - extractors.wanted_job_search - INFO - 채용 정보 추출: [VegaX] Research Scientist – AI/Bioinformatics - 콘스텔레이션코리아
+2025-03-31 10:55:28,233 - extractors.wanted_job_search - INFO - 채용 정보 추출: 코어뱅킹 개발자 - 에잇퍼센트(8PERCENT)
+2025-03-31 10:55:28,233 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:55:28,234 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Data Analyst - 핌아시아
+2025-03-31 10:55:28,234 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 시스템 엔지니어 - 픽셀스코프
+2025-03-31 10:55:28,234 - extractors.wanted_job_search - INFO - 채용 정보 추출: [광고 제품팀] 백엔드 개발자 (3년 이상) - 버즈빌(buzzvil)
+2025-03-31 10:55:28,234 - extractors.wanted_job_search - INFO - 채용 정보 추출: python 개발자 - 씨메스(CMES)
+2025-03-31 10:55:28,234 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI 엔지니어 - 덴컴
+2025-03-31 10:55:28,235 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플레이오] 엔지니어링 매니저 (Engineering Manager) - 지엔에이컴퍼니
+2025-03-31 10:55:28,235 - extractors.wanted_job_search - INFO - 채용 정보 추출: Development, SW 개발 담당 (8년이상) - 프로메디우스
+2025-03-31 10:55:28,235 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:55:28,235 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI DevOps - 업스테이지
+2025-03-31 10:55:28,236 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가(그로스해커), 부산 - 페이타랩(패스오더)
+2025-03-31 10:55:28,236 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:55:28,236 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (Python/Django) - 웜블러드
+2025-03-31 10:55:28,237 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (python) (전문연구요원/산업기능요원 전직가능) - 피알앤디컴퍼니(헤이딜러)
+2025-03-31 10:55:28,237 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 엔지니어 - 미리디
+2025-03-31 10:55:28,237 - extractors.wanted_job_search - INFO - 채용 정보 추출: C#, C++, Python, IoT MCU(아두이노,RPi) 개발자 - 아이티로그
+2025-03-31 10:55:28,237 - extractors.wanted_job_search - INFO - 채용 정보 추출: 소프트웨어 개발자 - 모빌리티랩
+2025-03-31 10:55:28,238 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:55:28,238 - extractors.wanted_job_search - INFO - 채용 정보 추출: 임베디드 어플리케이션 개발자 - 유니크굿컴퍼니
+2025-03-31 10:55:28,238 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이트 QA 자동화를 위한 Tool 개발 (계약직) - 펑타이그레이터차이나(피티코리아)
+2025-03-31 10:55:28,238 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] 백엔드 개발자(5-8년) - 혜움
+2025-03-31 10:55:28,238 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:55:28,239 - extractors.wanted_job_search - INFO - 채용 정보 추출: 글로벌 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:55:28,239 - extractors.wanted_job_search - INFO - 채용 정보 추출: Deep Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:55:28,239 - extractors.wanted_job_search - INFO - 채용 정보 추출: [전문연구요원 가능] 영상처리 개발자 - 메디인테크
+2025-03-31 10:55:28,239 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:55:28,239 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend 테크 리드 - 폰디
+2025-03-31 10:55:28,240 - extractors.wanted_job_search - INFO - 채용 정보 추출: Quantitative Researcher - 월드퀀트(WorldQuant Research Korea)
+2025-03-31 10:55:28,240 - extractors.wanted_job_search - INFO - 채용 정보 추출: 비임상 DM STAT 분석 책임연구원(과장급) - 몰림
+2025-03-31 10:55:28,240 - extractors.wanted_job_search - INFO - 채용 정보 추출: 파이썬 개발자 [코어강화팀] - 원티드랩
+2025-03-31 10:55:28,240 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 리드 엔지니어 (Python) - 엘리스
+2025-03-31 10:55:28,240 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 파이썬 백엔드 엔지니어 - 알로카도스
+2025-03-31 10:55:28,241 - extractors.wanted_job_search - INFO - 채용 정보 추출: 데이터 분석가 (3년차 이상) - 파이프트리스마트팜(PAIPTREESmartFarmInc.)
+2025-03-31 10:55:28,241 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 엔지니어 (Python) - 엘리스
+2025-03-31 10:55:28,241 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 클라우드 인프라 엔지니어 - 알로카도스
+2025-03-31 10:55:28,241 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:55:28,241 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'python'
+2025-03-31 10:55:29,110 - __main__ - INFO - WWR 검색 결과: 7개 작업 찾음
+2025-03-31 10:55:29,110 - __main__ - INFO - 총 87개 작업을 찾았습니다 (WWR: 7, Wanted: 80)
+2025-03-31 10:55:37,676 - __main__ - INFO - Excel 파일 내보내기 성공: jobs_python_20250331_105537.xlsx, 87개 작업
+2025-03-31 10:59:00,854 - __main__ - INFO - 키워드 'java'에 대한 새 검색 수행
+2025-03-31 10:59:00,855 - __main__ - INFO - 1. Wanted 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:59:00,855 - extractors.wanted_job_search - INFO - WantedJobSearch 초기화: headless 모드 = False
+2025-03-31 10:59:00,855 - extractors.wanted_job_search - INFO - Wanted 스크래핑 시작: URL = https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:59:01,519 - extractors.wanted_job_search - INFO - 페이지 로드 중: https://www.wanted.co.kr/search?query=java&tab=position
+2025-03-31 10:59:05,923 - extractors.wanted_job_search - INFO - 페이지 스크롤 시작
+2025-03-31 10:59:13,889 - extractors.wanted_job_search - INFO - 80개의 채용 공고 요소 발견
+2025-03-31 10:59:13,889 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:59:13,889 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:59:13,890 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:59:13,890 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:59:13,890 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:59:13,890 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 백엔드 개발자 (7년이상) - 아우토크립트
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자동화 노코드 툴 JAVA 백엔드 개발자 (5년 이상) - 바티에이아이
+2025-03-31 10:59:13,891 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 소프트웨어 엔지니어(Fullstack Software Engineer) - 애자일소다
+2025-03-31 10:59:13,892 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹툰 플랫폼 백엔드 개발자 - 키다리스튜디오
+2025-03-31 10:59:13,892 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End Engineer - 올마이투어
+2025-03-31 10:59:13,892 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 이상) - 커넥트웨이브
+2025-03-31 10:59:13,892 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer Lead - 엠지알브이
+2025-03-31 10:59:13,893 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 파트장 (Java, Spring) - 미스터블루
+2025-03-31 10:59:13,893 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (7년 이상) - 넥스트컬쳐
+2025-03-31 10:59:13,893 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (5년 이상) - 오토위니
+2025-03-31 10:59:13,893 - extractors.wanted_job_search - INFO - 채용 정보 추출: Gen AI 백엔드 개발자 (4년차 이상) - 아스타
+2025-03-31 10:59:13,893 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 스프링부트 개발자 (7년차 이상) - 라이즌스퀘어
+2025-03-31 10:59:13,894 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드개발팀 서버 및 클라이언트 개발 - 헥토이노베이션
+2025-03-31 10:59:13,894 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (WMS) - 포티투닷(42dot)
+2025-03-31 10:59:13,894 - extractors.wanted_job_search - INFO - 채용 정보 추출: [IT인프라지원] 시스템 운영개발(DevOps) - 샘표식품
+2025-03-31 10:59:13,894 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발] JAVA 개발(7년차 이상) - 아이알큐더스
+2025-03-31 10:59:13,895 - extractors.wanted_job_search - INFO - 채용 정보 추출: [Lead] 프론트앤드 웹개발 (JavaScript, HTML5, CSS) - 하와이컴퍼니
+2025-03-31 10:59:13,895 - extractors.wanted_job_search - INFO - 채용 정보 추출: Senior Backend Engineer (물류시스템) - 포티투닷(42dot)
+2025-03-31 10:59:13,895 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (판교) - 직트럭
+2025-03-31 10:59:13,895 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA/KOTLIN 웹 개발자 - 레전더리홀딩스
+2025-03-31 10:59:13,896 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Back-End 엔지니어 (3~5년) - 그린도트
+2025-03-31 10:59:13,896 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바스크립트 백엔드 시니어 개발자 - 지씨미디어
+2025-03-31 10:59:13,896 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 어플리케이션 개발자 (수지구 파견) - 앤톡(Antock)
+2025-03-31 10:59:13,896 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버개발자/고급 - 글로벌머니익스프레스
+2025-03-31 10:59:13,897 - extractors.wanted_job_search - INFO - 채용 정보 추출: 클라우드 Java 백엔드 개발자 - 아이파킹
+2025-03-31 10:59:13,897 - extractors.wanted_job_search - INFO - 채용 정보 추출: K8S 구축 백엔드 빅데이터 개발자 - 미리비트
+2025-03-31 10:59:13,897 - extractors.wanted_job_search - INFO - 채용 정보 추출: [개발PL] 업무분석,설계,개발 (6년이상) - 스카이웨어
+2025-03-31 10:59:13,897 - extractors.wanted_job_search - INFO - 채용 정보 추출: API 시스템 개발자 (과/차장급) - 기웅정보통신
+2025-03-31 10:59:13,897 - extractors.wanted_job_search - INFO - 채용 정보 추출: 풀스택 웹 개발자 (책임급) - 뉴스젤리(Newsjelly)
+2025-03-31 10:59:13,898 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 코어 라이브러리 개발자 - 아이씨티케이
+2025-03-31 10:59:13,898 - extractors.wanted_job_search - INFO - 채용 정보 추출: Software Engineer (Backend) - 스튜디오씨드코리아(프로토파이)
+2025-03-31 10:59:13,898 - extractors.wanted_job_search - INFO - 채용 정보 추출: AI Model Production (Document AI) - 업스테이지
+2025-03-31 10:59:13,898 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Senior 개발자 (플랫폼개발팀) - 델레오코리아(deleo)
+2025-03-31 10:59:13,898 - extractors.wanted_job_search - INFO - 채용 정보 추출: [판교] 풀스택 엔지니어 (PHP, JavaScript) - 지란지교소프트
+2025-03-31 10:59:13,899 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하이닉스 SmartFX 기반 C#, Java 개발자 - 미리비트
+2025-03-31 10:59:13,899 - extractors.wanted_job_search - INFO - 채용 정보 추출: [플랫폼개발팀] Java 주니어 개발자 - 델레오코리아(deleo)
+2025-03-31 10:59:13,899 - extractors.wanted_job_search - INFO - 채용 정보 추출: 개발자 - 효성에프엠에스
+2025-03-31 10:59:13,899 - extractors.wanted_job_search - INFO - 채용 정보 추출: [장애인 특별전형] JAVA 개발자 - 콘센트릭스서비스코리아CATALYST
+2025-03-31 10:59:13,900 - extractors.wanted_job_search - INFO - 채용 정보 추출: 시니어 소프트웨어 엔지니어 - 오틈랩스(OTTMLabs)
+2025-03-31 10:59:13,900 - extractors.wanted_job_search - INFO - 채용 정보 추출: 게임 백엔드 개발자 - 더쇼소프트웨어
+2025-03-31 10:59:13,900 - extractors.wanted_job_search - INFO - 채용 정보 추출: [인텔리전스랩스] 인증/세션 서비스 백엔드 개발자 (Java) - 넥슨코리아(NEXON)
+2025-03-31 10:59:13,900 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발 - 아주큐엠에스
+2025-03-31 10:59:13,901 - extractors.wanted_job_search - INFO - 채용 정보 추출: [기업부설연구소] 플랫폼 개발팀장 [JAVA, SPRINGBOOT5+] - 아인잡(AINJOB)
+2025-03-31 10:59:13,901 - extractors.wanted_job_search - INFO - 채용 정보 추출: 보안 솔루션 서버 개발 - 아이씨티케이
+2025-03-31 10:59:13,901 - extractors.wanted_job_search - INFO - 채용 정보 추출: [포토이즘] Backend developer - 서북
+2025-03-31 10:59:13,901 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발(게임 퍼블리싱) - 위메이드(WEMADE)
+2025-03-31 10:59:13,902 - extractors.wanted_job_search - INFO - 채용 정보 추출: 자바 백엔드 엔지니어 (암호화폐 거래소) - 아데나소프트웨어
+2025-03-31 10:59:13,902 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA REACT / WEBFRONT-K GUI개발 - 파이오링크
+2025-03-31 10:59:13,902 - extractors.wanted_job_search - INFO - 채용 정보 추출: JAVA 개발자 (2~5년) - 오토위니
+2025-03-31 10:59:13,903 - extractors.wanted_job_search - INFO - 채용 정보 추출: [다나와개발본부] Backend Engineer (4년 미만) - 커넥트웨이브
+2025-03-31 10:59:13,903 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자(PHP, JAVA) - 와그(WAUG)
+2025-03-31 10:59:13,903 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사이버보안 테스트 솔루션 개발자 - 아우토크립트
+2025-03-31 10:59:13,903 - extractors.wanted_job_search - INFO - 채용 정보 추출: 사내 JAVA 개발자 - 빌포스트
+2025-03-31 10:59:13,904 - extractors.wanted_job_search - INFO - 채용 정보 추출: 서버 백엔드 개발자(Java/Kotlin) - 페이민트
+2025-03-31 10:59:13,904 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 - 케이엠파킹앤스페이스
+2025-03-31 10:59:13,904 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:59:13,905 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 개발자 (3-7년) - 스칼라데이터
+2025-03-31 10:59:13,905 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java 주니어 개발자 (Back-end) - 유핀테크허브(유트랜스퍼)
+2025-03-31 10:59:13,905 - extractors.wanted_job_search - INFO - 채용 정보 추출: [레진코믹스] 백엔드 개발(서비스개발) - 키다리스튜디오
+2025-03-31 10:59:13,905 - extractors.wanted_job_search - INFO - 채용 정보 추출: [라이브클래스] Back-end Engineer - 퓨쳐스콜레
+2025-03-31 10:59:13,906 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 개발자 - 씨알에스큐브(CRScube)
+2025-03-31 10:59:13,906 - extractors.wanted_job_search - INFO - 채용 정보 추출: Backend Engineer (Java/Kotlin) - 센트비(Sentbe)
+2025-03-31 10:59:13,906 - extractors.wanted_job_search - INFO - 채용 정보 추출: Back-end Engineer (5년~) - 비사이드코리아
+2025-03-31 10:59:13,906 - extractors.wanted_job_search - INFO - 채용 정보 추출: 하다(HADA) 서버 개발 - 샤플앤컴퍼니
+2025-03-31 10:59:13,907 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java Server 개발자 - 아하랩스
+2025-03-31 10:59:13,907 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드 개발자 (1년이상) - 카테노이드
+2025-03-31 10:59:13,907 - extractors.wanted_job_search - INFO - 채용 정보 추출: 백엔드/자바개발자 - 글리티
+2025-03-31 10:59:13,908 - extractors.wanted_job_search - INFO - 채용 정보 추출: Java  웹 개발자 (2년 이상) - 이노케어플러스
+2025-03-31 10:59:13,908 - extractors.wanted_job_search - INFO - 채용 정보 추출: [미리캔버스] 백엔드 개발자 - 미리디
+2025-03-31 10:59:13,908 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹개발 (3년 이상) - 넥스트컬쳐
+2025-03-31 10:59:13,909 - extractors.wanted_job_search - INFO - 채용 정보 추출: 웹 서비스 백엔드 개발자 - 이스트에이드(EST AID)
+2025-03-31 10:59:13,909 - __main__ - INFO - Wanted 검색 결과: 80개 작업 찾음
+2025-03-31 10:59:13,909 - __main__ - INFO - 2. WWR 사이트 스크래핑 시작: 키워드 'java'
+2025-03-31 10:59:14,798 - __main__ - INFO - WWR 검색 결과: 3개 작업 찾음
+2025-03-31 10:59:14,798 - __main__ - INFO - 총 83개 작업을 찾았습니다 (WWR: 3, Wanted: 80)
+2025-03-31 11:02:41,808 - __main__ - INFO - CSV 파일 내보내기 성공: jobs_python_20250331_110241.csv, 87개 작업
