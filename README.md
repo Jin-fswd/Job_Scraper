@@ -13,7 +13,6 @@
 - [Environment Variables](#environment-variables)
 - [License](#license)
 - [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Features
 
